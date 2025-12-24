@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 2026 Income-Attraction Mindset Test | Bloom With Letorea</title>
+    
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS - REPLACE WITH YOUR PUBLIC KEY
+        (function(){
+            emailjs.init("jSZZQU_kxBt_T-lPx"); // Replace with your actual public key
+        })();
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+            background: #ffffff;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #6B2D8C 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero h2 {
+            font-size: 1.4em;
+            font-weight: 400;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+        
+        .hero p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #D4AF37;
+            color: white;
+            padding: 18px 45px;
+            font-size: 1.2em;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            background: #D4AF37;
+        }
+        
+        .section {
+            padding: 70px 20px;
+        }
+        
+        .section-alt {
+            background: #f7fafc;
+        }
+        
+        .section h2 {
+            font-size: 2.2em;
+            color: #2d3748;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 800;
+        }
+        
+        .section h3 {
+            font-size: 1.6em;
+            color: #6B2D8C;
+            margin: 30px 0 15px;
+            font-weight: 700;
+        }
+        
+        .section p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        
+        .pain-box {
+            background: white;
+            padding: 30px;
+            border-left: 5px solid #fc8181;
+            margin: 25px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .pain-box p {
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .benefits-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .benefits-list li {
+            padding: 18px 0 18px 40px;
+            position: relative;
+            font-size: 1.1em;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .benefits-list li:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+            font-size: 1.3em;
+        }
+        
+        .pillars {
+            display: grid;
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .pillar {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        
+        .pillar:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .pillar h4 {
+            color: #6B2D8C;
+            font-size: 1.4em;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        
+        .results-grid {
+            display: grid;
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .result-card {
+            padding: 30px;
+            border-radius: 12px;
+            color: white;
+        }
+        
+        .blocked {
+            background: linear-gradient(135deg, #fc8181 0%, #f56565 100%);
+        }
+        
+        .rising {
+            background: linear-gradient(135deg, #D4AF37 0%, #D4AF37 100%);
+        }
+        
+        .growth {
+            background: linear-gradient(135deg, #68d391 0%, #48bb78 100%);
+        }
+        
+        .result-card h4 {
+            font-size: 1.5em;
+            margin-bottom: 12px;
+        }
+        
+        .who-for-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .who-for-list li {
+            padding: 15px 0 15px 35px;
+            position: relative;
+            font-size: 1.1em;
+        }
+        
+        .who-for-list li:before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #6B2D8C;
+            font-weight: 900;
+            font-size: 1.3em;
+        }
+        
+        .about-box {
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #6B2D8C 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 25px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .faq {
+            margin: 50px 0;
+        }
+        
+        .faq-item {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .faq-item h4 {
+            color: #6B2D8C;
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        
+        .final-cta {
+            background: #2d3748;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .final-cta p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        .emphasis {
+            background: linear-gradient(135deg, #fef5e7 0%, #fdeaa8 100%);
+            padding: 30px;
+            border-left: 5px solid #D4AF37;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+
+        /* Quiz Modal Styles */
+        .quiz-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .quiz-container {
+            background: white;
+            max-width: 700px;
+            margin: 40px auto;
+            border-radius: 12px;
+            padding: 40px;
+            position: relative;
+        }
+
+        .quiz-progress {
+            background: #e2e8f0;
+            height: 8px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .quiz-progress-bar {
+            background: linear-gradient(90deg, #6B2D8C 0%, #764ba2 100%);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .quiz-step {
+            display: none;
+        }
+
+        .quiz-step.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .quiz-question {
+            font-size: 1.4em;
+            color: #2d3748;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .quiz-option {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.05em;
+        }
+
+        .quiz-option:hover {
+            background: #edf2f7;
+            border-color: #6B2D8C;
+            transform: translateX(5px);
+        }
+
+        .quiz-option.selected {
+            background: #6B2D8C;
+            color: white;
+            border-color: #6B2D8C;
+        }
+
+        .quiz-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .quiz-btn {
+            flex: 1;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-btn-back {
+            background: #e2e8f0;
+            color: #2d3748;
+        }
+
+        .quiz-btn-next {
+            background: #6B2D8C;
+            color: white;
+        }
+
+        .quiz-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .quiz-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .email-capture {
+            text-align: center;
+        }
+
+        .email-capture input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .email-capture input:focus {
+            outline: none;
+            border-color: #6B2D8C;
+        }
+
+        .results-section {
+            text-align: center;
+        }
+
+        .results-score {
+            font-size: 4em;
+            font-weight: 800;
+            margin: 20px 0;
+            background: linear-gradient(135deg, #6B2D8C 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .results-category {
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            color: white;
+        }
+
+        .results-insights {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .results-insights h4 {
+            color: #6B2D8C;
+            margin-bottom: 15px;
+        }
+
+        .results-insights ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .results-insights li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+        }
+
+        .results-insights li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #6B2D8C;
+            font-weight: bold;
+        }
+
+        .close-quiz {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 2em;
+            color: #718096;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close-quiz:hover {
+            color: #2d3748;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8em;
+            }
+            
+            .hero h2 {
+                font-size: 1.1em;
+            }
+            
+            .section h2 {
+                font-size: 1.7em;
+            }
+            
+            .cta-button {
+                padding: 15px 35px;
+                font-size: 1.1em;
+            }
+
+            .quiz-container {
+                padding: 25px;
+            }
+
+            .quiz-question {
+                font-size: 1.2em;
+            }
+
+            .quiz-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>The 2026 Income-Attraction Mindset Test</h1>
+            <h2>Are You Really Ready to Earn More in 2026? Or Are Hidden Blocks Holding You Back?</h2>
+            <p>Take this 5-minute test to discover the invisible mindset patterns, habits, and blind spots silently limiting your income potential — and what to fix before the new year begins.</p>
+            <p>Most people enter a new year with hope but no real plan. They want more money, better opportunities, and real growth — but they don't know <em>why</em> it's not happening yet.</p>
+            <p><strong>The truth?</strong> Your earning potential isn't just about hard work. It's about <em>how you think, communicate, position yourself, and show up</em> in the marketplace.</p>
+            <p>This free assessment will show you exactly where you're blocked — and what you need to unlock before 2026.</p>
+            <button class="cta-button" id="startQuizBtn1">Take the 5-Minute Test — It's Free</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>If You're Entering 2026 Feeling This Way, You're Not Alone</h2>
+            <p>Let's be honest about what's really happening:</p>
+            
+            <div class="pain-box">
+                <p><strong>The economy is tough.</strong> Inflation keeps rising. Salaries aren't catching up. The cost of living in Nigeria feels heavier every month. You're working hard, but the money isn't matching the effort.</p>
+                
+                <p><strong>You feel stuck.</strong> You've been in the same income bracket for too long. You see others making moves, landing clients, getting promotions, building businesses — and you wonder, <em>"Why not me?"</em></p>
+                
+                <p><strong>You're confused about your next step.</strong> You have ideas, talents, and ambition — but you don't know which direction to go. Should you start a side hustle? Switch careers? Learn a new skill? The options are overwhelming, so you stay where you are.</p>
+                
+                <p><strong>You're afraid 2026 will be the same as 2024 and 2025.</strong> Another year of hoping, hustling without strategy, and ending December frustrated that nothing really changed.</p>
+            </div>
+            
+            <p>Here's what most people don't realize:</p>
+            
+            <div class="emphasis">
+                <p><strong>The problem isn't your potential. It's your mindset, clarity, and positioning.</strong></p>
+                <p>The way you think about money, opportunity, and yourself directly affects what you attract. If your internal systems are blocked, your external results will be too.</p>
+            </div>
+            
+            <p style="text-align: center; font-size: 1.2em; font-weight: 600;">That's why this test exists.</p>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2>What This Test Will Help You Discover</h2>
+            <p style="text-align: center; font-size: 1.1em; margin-bottom: 40px;">In just 5 minutes, you'll uncover:</p>
+            
+            <ul class="benefits-list">
+                <li><strong>Your biggest earning block</strong> — the one thing stopping money, opportunities, and growth from flowing to you</li>
+                <li><strong>Your clarity gaps</strong> — where you're confused, unfocused, or moving without a real plan</li>
+                <li><strong>Your hidden strengths</strong> — the skills and qualities you've been underusing (or undervaluing)</li>
+                <li><strong>Your sabotaging patterns</strong> — the beliefs, habits, and behaviors that keep you small without you even realizing it</li>
+                <li><strong>The habits limiting your growth</strong> — what you do daily that's quietly keeping you stuck</li>
+                <li><strong>Your communication and confidence gaps</strong> — how you show up (or hide) in ways that block opportunities</li>
+                <li><strong>What you must fix before 2026</strong> — your personalized next steps to start the year with momentum, not confusion</li>
+            </ul>
+            
+            <p style="text-align: center; font-size: 1.2em; font-weight: 600; margin-top: 40px;">This isn't just a quiz. It's a mirror. And it will show you the truth about what's really holding you back.</p>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="cta-button" id="startQuizBtn2">Start Your Test Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>How the Test Works</h2>
+            <p style="text-align: center; font-size: 1.1em; margin-bottom: 40px;">The 2026 Income-Attraction Mindset Test evaluates you across <strong>5 critical pillars</strong> that directly impact your ability to attract income, opportunities, and growth:</p>
+            
+            <div class="pillars">
+                <div class="pillar">
+                    <h4>1. Mindset & Beliefs</h4>
+                    <p>How you think about money, success, and yourself. Do you believe you're worthy of earning more? Or are you carrying limiting beliefs that keep you playing small?</p>
+                </div>
+                
+                <div class="pillar">
+                    <h4>2. Clarity & Direction</h4>
+                    <p>Do you know where you're going? Or are you moving without a map, hoping something will work out? Clarity is power — and confusion is expensive.</p>
+                </div>
+                
+                <div class="pillar">
+                    <h4>3. Discipline & Habits</h4>
+                    <p>What you do daily creates your future. Are your habits aligned with growth, or are they keeping you comfortable and stuck?</p>
+                </div>
+                
+                <div class="pillar">
+                    <h4>4. Communication & Confidence</h4>
+                    <p>How you speak, show up, and present yourself determines what doors open for you. Are you communicating your value clearly? Or are you invisible to the opportunities you want?</p>
+                </div>
+                
+                <div class="pillar">
+                    <h4>5. Value Positioning</h4>
+                    <p>Do people see you as valuable, skilled, and worth paying? Or are you underselling yourself, undercharging, or waiting to be discovered?</p>
+                </div>
+            </div>
+            
+            <h3 style="text-align: center; margin-top: 50px; color: #2d3748;">Your Results Will Place You in One of Three Categories:</h3>
+            
+            <div class="results-grid">
+                <div class="result-card blocked">
+                    <h4>🔴 The Blocked Earner</h4>
+                    <p>You're working hard but seeing little return. Your mindset, clarity, and habits are silently holding you back. You need to unblock your thinking and reposition yourself before 2026.</p>
+                </div>
+                
+                <div class="result-card rising">
+                    <h4>🟡 The Rising Achiever</h4>
+                    <p>You're making progress, but you're inconsistent. You have potential, but you're not maximizing it. A few key shifts will take you to the next level.</p>
+                </div>
+                
+                <div class="result-card growth">
+                    <h4>🟢 The Growth Magnet</h4>
+                    <p>You're aligned, focused, and positioned for growth. You attract opportunities because your mindset, habits, and communication are working <em>for</em> you, not against you.</p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; font-size: 1.1em; margin-top: 40px;">No matter where you land, you'll get personalized insights and actionable next steps.</p>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2>About Bloom With Letorea</h2>
+            <div class="about-box">
+                <p style="font-size: 1.1em;">Bloom With Letorea is the personal development arm of Letorea Learning Hub, created to help ambitious individuals — especially women and young professionals across Nigeria and Africa — build the confidence, clarity, communication skills, mindset, and inner alignment that attract real growth and opportunities. We believe that your external success is a reflection of your internal world. When you work on yourself from the inside out, everything changes. This test is one of the tools we've created to help you start that journey with honesty, clarity, and actionable insight.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>2026 Is Too Important to Enter Blindly. Start With Clarity.</h2>
+            <p>You have two choices:</p>
+            <p><strong>Option 1:</strong> Enter 2026 the way you entered 2025 — with hope, hustle, and no real plan. Work hard all year and wonder in December why nothing changed.</p>
+            <p><strong>Option 2:</strong> Take 5 minutes right now to discover what's <em>really</em> blocking your income and growth. Get clarity. Fix what's broken. Enter the new year with a plan, not just a wish.</p>
+            <p style="font-size: 1.1em; margin-top: 30px;">The test is free. The insights are priceless.</p>
+            <button class="cta-button" id="startQuizBtn3">Take the Test Now — It's Free</button>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <div class="container">
+            <h2 style="color: white; margin-bottom: 30px;">Your 2026 Starts Today</h2>
+            <p>You don't need more motivation. You need more clarity.</p>
+            <p>You don't need more hustle. You need better alignment.</p>
+            <p>You don't need to hope things will change. You need to understand <em>why</em> they haven't — and fix it.</p>
+            <p style="font-size: 1.3em; margin-top: 30px; font-weight: 600;">This test will show you the truth. And the truth will set you free.</p>
+            <button class="cta-button" id="startQuizBtn4" style="margin-top: 30px;">Take the 5-Minute Test — It's Free</button>
+            <p style="margin-top: 50px; font-size: 1.1em; opacity: 0.85;"><em>2026 belongs to the people who are willing to look inward, grow honestly, and position themselves intentionally. Will that be you?</em></p>
+        </div>
+    </section>
+
+    <!-- Quiz Modal -->
+    <div class="quiz-modal" id="quizModal">
+        <div class="quiz-container">
+            <button class="close-quiz" id="closeQuizBtn">×</button>
+            <div class="quiz-progress">
+                <div class="quiz-progress-bar" id="progressBar"></div>
+            </div>
+            <div id="quizContent"></div>
+        </div>
+    </div>
+
+    <script>
+        // Define all functions first
+        let currentQuestion = 0;
+        let answers = [];
+        let userEmail = '';
+        let userName = '';
+        
+        const quizData = {
+            questions: [
+                // Mindset & Beliefs (4 questions)
+                {
+                    pillar: "Mindset & Beliefs",
+                    question: "When you think about earning significantly more money in 2026, what's your first thought?",
+                    options: [
+                        { text: "That would be amazing! I'm ready to make it happen.", score: 5 },
+                        { text: "I hope so, but I'm not sure how.", score: 3 },
+                        { text: "That sounds unrealistic for someone like me.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Mindset & Beliefs",
+                    question: "Complete this sentence: 'People who earn a lot of money are...'",
+                    options: [
+                        { text: "Lucky, privileged, or have connections I don't have.", score: 1 },
+                        { text: "Smart and strategic about opportunities.", score: 3 },
+                        { text: "People who positioned themselves well and took action.", score: 5 }
+                    ]
+                },
+                {
+                    pillar: "Mindset & Beliefs",
+                    question: "When you see someone your age succeeding financially, how do you feel?",
+                    options: [
+                        { text: "Inspired and curious about their strategies.", score: 5 },
+                        { text: "A bit jealous, wondering why it's not happening for me.", score: 3 },
+                        { text: "Skeptical—they probably got lucky or did something shady.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Mindset & Beliefs",
+                    question: "How do you respond when opportunities come your way?",
+                    options: [
+                        { text: "I go for it! Even if I'm nervous, I take action.", score: 5 },
+                        { text: "I think about it a lot, then sometimes talk myself out of it.", score: 3 },
+                        { text: "I assume I'm not ready yet or qualified enough.", score: 1 }
+                    ]
+                },
+                
+                // Clarity & Direction (4 questions)
+                {
+                    pillar: "Clarity & Direction",
+                    question: "Can you clearly describe what success looks like for you in 2026?",
+                    options: [
+                        { text: "Yes, I have specific goals and a vision.", score: 5 },
+                        { text: "Kind of—I have general ideas but no clear plan.", score: 3 },
+                        { text: "Not really. I'm just hoping things get better.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Clarity & Direction",
+                    question: "How would you describe your current career or business path?",
+                    options: [
+                        { text: "Clear and focused—I know where I'm going.", score: 5 },
+                        { text: "Confusing—I have too many ideas and don't know which to pursue.", score: 3 },
+                        { text: "Stuck—I'm not sure what direction to take.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Clarity & Direction",
+                    question: "Do you know what makes you valuable in the marketplace?",
+                    options: [
+                        { text: "Yes, I know my unique skills and strengths.", score: 5 },
+                        { text: "I have skills but don't know how to position them.", score: 3 },
+                        { text: "Not really—I feel average or replaceable.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Clarity & Direction",
+                    question: "When making decisions about your future, what guides you?",
+                    options: [
+                        { text: "My clear vision and long-term goals.", score: 5 },
+                        { text: "Whatever feels right in the moment.", score: 3 },
+                        { text: "Fear, pressure, or what others expect of me.", score: 1 }
+                    ]
+                },
+                
+                // Discipline & Habits (4 questions)
+                {
+                    pillar: "Discipline & Habits",
+                    question: "How consistently do you work on your goals?",
+                    options: [
+                        { text: "Daily or almost daily—I'm disciplined.", score: 5 },
+                        { text: "When I feel motivated, which comes and goes.", score: 3 },
+                        { text: "Rarely—I'm easily distracted or overwhelmed.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Discipline & Habits",
+                    question: "How do you spend your free time?",
+                    options: [
+                        { text: "Learning, building skills, or working on my goals.", score: 5 },
+                        { text: "A mix—some productive, some just relaxing.", score: 3 },
+                        { text: "Mostly scrolling social media or watching TV.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Discipline & Habits",
+                    question: "When faced with a difficult task, what do you usually do?",
+                    options: [
+                        { text: "Break it down and tackle it step by step.", score: 5 },
+                        { text: "Procrastinate a bit, then rush to finish it.", score: 3 },
+                        { text: "Avoid it or give up if it feels too hard.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Discipline & Habits",
+                    question: "Do you have a morning or daily routine that sets you up for success?",
+                    options: [
+                        { text: "Yes, and I stick to it most days.", score: 5 },
+                        { text: "I try, but it's inconsistent.", score: 3 },
+                        { text: "No, my days feel chaotic and reactive.", score: 1 }
+                    ]
+                },
+                
+                // Communication & Confidence (4 questions)
+                {
+                    pillar: "Communication & Confidence",
+                    question: "How comfortable are you talking about your skills and accomplishments?",
+                    options: [
+                        { text: "Very comfortable—I know my value and can express it.", score: 5 },
+                        { text: "Somewhat comfortable, but I downplay myself sometimes.", score: 3 },
+                        { text: "Uncomfortable—I feel like I'm bragging.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Communication & Confidence",
+                    question: "When networking or meeting new people, how do you show up?",
+                    options: [
+                        { text: "Confident and clear about who I am and what I offer.", score: 5 },
+                        { text: "Friendly but unsure how to position myself.", score: 3 },
+                        { text: "Nervous or invisible—I don't speak up much.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Communication & Confidence",
+                    question: "How do you handle rejection or criticism?",
+                    options: [
+                        { text: "I see it as feedback and keep moving forward.", score: 5 },
+                        { text: "It bothers me, but I eventually recover.", score: 3 },
+                        { text: "It crushes me and makes me doubt myself.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Communication & Confidence",
+                    question: "Can you clearly explain what you do and why people should work with you?",
+                    options: [
+                        { text: "Yes, I have a clear and compelling pitch.", score: 5 },
+                        { text: "Kind of, but it feels unclear or generic.", score: 3 },
+                        { text: "No, I struggle to articulate my value.", score: 1 }
+                    ]
+                },
+                
+                // Value Positioning (4 questions)
+                {
+                    pillar: "Value Positioning",
+                    question: "How do you price your services or value your time?",
+                    options: [
+                        { text: "Based on the value I provide—I charge what I'm worth.", score: 5 },
+                        { text: "I'm not sure, so I usually charge less to be safe.", score: 3 },
+                        { text: "I undercharge because I don't want to scare people away.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Value Positioning",
+                    question: "Do people seek you out for opportunities, or do you always have to chase them?",
+                    options: [
+                        { text: "People come to me—I'm seen as valuable.", score: 5 },
+                        { text: "Sometimes both, but inconsistently.", score: 3 },
+                        { text: "I'm always chasing—no one reaches out to me.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Value Positioning",
+                    question: "How visible are you in your industry or community?",
+                    options: [
+                        { text: "Very visible—I share my work and build my presence.", score: 5 },
+                        { text: "Somewhat visible, but inconsistently.", score: 3 },
+                        { text: "Invisible—I stay quiet and hope to be discovered.", score: 1 }
+                    ]
+                },
+                {
+                    pillar: "Value Positioning",
+                    question: "When someone asks what makes you different, what do you say?",
+                    options: [
+                        { text: "I have a clear answer that sets me apart.", score: 5 },
+                        { text: "I struggle to differentiate myself from others.", score: 3 },
+                        { text: "I don't think I'm that different from anyone else.", score: 1 }
+                    ]
+                }
+            ]
+        };
+
+        function startQuiz() {
+            console.log('Start quiz called');
+            document.getElementById('quizModal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            showEmailCapture();
+        }
+
+        function closeQuiz() {
+            document.getElementById('quizModal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+            currentQuestion = 0;
+            answers = [];
+        }
+
+        function showEmailCapture() {
+            const content = `
+                <div class="email-capture">
+                    <h2 style="color: #6B2D8C; margin-bottom: 20px;">Let's Get Started!</h2>
+                    <p style="margin-bottom: 30px; font-size: 1.1em;">Enter your details to receive your personalized results:</p>
+                    <input type="text" id="userName" placeholder="Your First Name" required>
+                    <input type="email" id="userEmail" placeholder="Your Email Address" required>
+                    <button class="cta-button" id="beginTestBtn" style="width: 100%; margin-top: 10px;">Begin My Test</button>
+                    <p style="font-size: 0.9em; color: #718096; margin-top: 20px;">We respect your privacy. Your results will be sent instantly.</p>
+                </div>
+            `;
+            document.getElementById('quizContent').innerHTML = content;
+            updateProgress();
+            
+            // Add event listener to begin test button
+            setTimeout(() => {
+                document.getElementById('beginTestBtn').addEventListener('click', startTest);
+            }, 100);
+        }
+
+        function startTest() {
+            userName = document.getElementById('userName').value.trim();
+            userEmail = document.getElementById('userEmail').value.trim();
+            
+            if (!userName || !userEmail) {
+                alert('Please enter both your name and email.');
+                return;
+            }
+            
+            if (!isValidEmail(userEmail)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            currentQuestion = 0;
+            answers = [];
+            showQuestion();
+        }
+
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        function showQuestion() {
+            const q = quizData.questions[currentQuestion];
+            const totalQuestions = quizData.questions.length;
+            
+            let optionsHTML = '';
+            q.options.forEach((option, index) => {
+                optionsHTML += `
+                    <div class="quiz-option" data-index="${index}">
+                        ${option.text}
+                    </div>
+                `;
+            });
+            
+            const content = `
+                <div class="quiz-step active">
+                    <p style="color: #6B2D8C; font-weight: 600; margin-bottom: 10px;">
+                        Question ${currentQuestion + 1} of ${totalQuestions} • ${q.pillar}
+                    </p>
+                    <h3 class="quiz-question">${q.question}</h3>
+                    <div class="quiz-options" id="options">
+                        ${optionsHTML}
+                    </div>
+                    <div class="quiz-buttons">
+                        ${currentQuestion > 0 ? '<button class="quiz-btn quiz-btn-back" id="backBtn">Back</button>' : ''}
+                        <button class="quiz-btn quiz-btn-next" id="nextBtn" disabled>
+                            ${currentQuestion === totalQuestions - 1 ? 'See My Results' : 'Next'}
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('quizContent').innerHTML = content;
+            updateProgress();
+            
+            // Add event listeners after content is rendered
+            setTimeout(() => {
+                const options = document.querySelectorAll('.quiz-option');
+                options.forEach((opt, index) => {
+                    opt.addEventListener('click', () => selectOption(index));
+                });
+                
+                const nextBtn = document.getElementById('nextBtn');
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', nextQuestion);
+                }
+                
+                const backBtn = document.getElementById('backBtn');
+                if (backBtn) {
+                    backBtn.addEventListener('click', previousQuestion);
+                }
+            }, 100);
+        }
+
+        function selectOption(index) {
+            const options = document.querySelectorAll('.quiz-option');
+            options.forEach(opt => opt.classList.remove('selected'));
+            options[index].classList.add('selected');
+            
+            answers[currentQuestion] = quizData.questions[currentQuestion].options[index].score;
+            document.getElementById('nextBtn').disabled = false;
+        }
+
+        function nextQuestion() {
+            if (answers[currentQuestion] === undefined) {
+                alert('Please select an answer.');
+                return;
+            }
+            
+            if (currentQuestion < quizData.questions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / (quizData.questions.length + 1)) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        function calculateResults() {
+            const totalScore = answers.reduce((sum, score) => sum + score, 0);
+            const maxScore = quizData.questions.length * 5;
+            const percentage = (totalScore / maxScore) * 100;
+            
+            let category, categoryClass, insights;
+            
+            if (percentage < 50) {
+                category = "The Blocked Earner";
+                categoryClass = "blocked";
+                insights = {
+                    title: "Your Current Reality",
+                    items: [
+                        "You're working hard but your internal systems (mindset, clarity, habits) are holding you back.",
+                        "You may be carrying limiting beliefs about money, success, or your own worthiness.",
+                        "Your lack of clarity and direction is causing you to move without a real strategy.",
+                        "You need to rebuild your foundation before 2026 starts."
+                    ],
+                    action: "What You Need: A complete mindset reset, clarity on your direction, and new habits that align with growth."
+                };
+            } else if (percentage < 75) {
+                category = "The Rising Achiever";
+                categoryClass = "rising";
+                insights = {
+                    title: "Your Current Reality",
+                    items: [
+                        "You have potential and you're making some progress, but it's inconsistent.",
+                        "You know what to do, but you're not doing it consistently enough to see major results.",
+                        "Your confidence and positioning need strengthening to attract bigger opportunities.",
+                        "You're close to a breakthrough—you just need to close the gaps."
+                    ],
+                    action: "What You Need: Consistency, better positioning, and a confidence boost to take you to the next level."
+                };
+            } else {
+                category = "The Growth Magnet";
+                categoryClass = "growth";
+                insights = {
+                    title: "Your Current Reality",
+                    items: [
+                        "You're aligned, focused, and positioned for growth.",
+                        "Your mindset, habits, and communication are working FOR you, not against you.",
+                        "You attract opportunities because you show up with clarity and confidence.",
+                        "You're ready to scale and multiply your impact in 2026."
+                    ],
+                    action: "What You Need: Strategic scaling, deeper relationships, and systems to handle your growth."
+                };
+            }
+            
+            return { totalScore, maxScore, percentage, category, categoryClass, insights };
+        }
+
+        function showResults() {
+            const results = calculateResults();
+            
+            // Show loading state
+            document.getElementById('quizContent').innerHTML = `
+                <div class="results-section" style="text-align: center;">
+                    <h2 style="color: #6B2D8C;">Calculating Your Results...</h2>
+                    <p style="margin-top: 20px;">Please wait while we prepare your personalized insights.</p>
+                </div>
+            `;
+            
+            // Send email
+            sendResultsEmail(results);
+        }
+        
+        function sendResultsEmail(results) {
+            // Format insights for email
+            const insightsText = results.insights.items.map((item, i) => `${i + 1}. ${item}`).join('\n');
+            
+            // Prepare email parameters
+            const templateParams = {
+                user_name: userName,
+                user_email: userEmail,
+                score: results.totalScore,
+                max_score: results.maxScore,
+                percentage: Math.round(results.percentage),
+                category: results.category,
+                insights: insightsText,
+                action_steps: results.insights.action
+            };
+            
+            // Send via EmailJS
+            // REPLACE 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs
+            emailjs.send('service_pp5u56r', 'template_tt4w4h6', templateParams)
+                .then(function(response) {
+                    console.log('Email sent successfully!', response.status, response.text);
+                    displayResults(results, true);
+                }, function(error) {
+                    console.error('Email failed to send:', error);
+                    displayResults(results, false);
+                });
+        }
+        
+        function displayResults(results, emailSent) {
+            
+            const content = `
+                <div class="results-section">
+                    <h2 style="color: #2d3748; margin-bottom: 10px;">Your Results Are In, ${userName}!</h2>
+                    <div class="results-score">${Math.round(results.percentage)}%</div>
+                    <p style="font-size: 1.2em; margin-bottom: 30px;">Your Income-Attraction Readiness Score</p>
+                    
+                    <div class="results-category ${results.categoryClass}">
+                        <h3 style="font-size: 1.8em; margin-bottom: 15px;">${results.category}</h3>
+                        <p style="font-size: 1.1em; opacity: 0.95;">Score: ${results.totalScore} out of ${results.maxScore}</p>
+                    </div>
+                    
+                    <div class="results-insights">
+                        <h4>${results.insights.title}</h4>
+                        <ul>
+                            ${results.insights.items.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                        <p style="margin-top: 20px; padding-top: 20px; border-top: 2px solid #e2e8f0; font-weight: 600; color: #6B2D8C;">
+                            ${results.insights.action}
+                        </p>
+                    </div>
+                    
+                    <div style="background: linear-gradient(135deg, ${emailSent ? '#6B2D8C 0%, #764ba2' : '#D4AF37 0%, #D4AF37'} 100%); color: white; padding: 30px; border-radius: 12px; margin-top: 30px;">
+                        <h4 style="margin-bottom: 15px;">${emailSent ? '📧 Your Detailed Results Have Been Sent!' : '⚠️ Email Not Configured Yet'}</h4>
+                        <p>${emailSent 
+                            ? `Check your email at <strong>${userEmail}</strong> for your complete breakdown, personalized recommendations, and next steps for 2026.` 
+                            : 'Your results are displayed above. To receive them via email, the site owner needs to configure the email service. You can screenshot these results for your records.'
+                        }</p>
+                        ${emailSent ? '<p style="margin-top: 15px; font-size: 0.95em; opacity: 0.9;">Don\'t see it? Check your spam folder.</p>' : ''}
+                    </div>
+                    
+                    <!-- TELEGRAM COMMUNITY CTA -->
+                    <div style="background: linear-gradient(135deg, #0088cc 0%, #005f8f 100%); color: white; padding: 35px; border-radius: 12px; margin-top: 30px; text-align: center; box-shadow: 0 10px 30px rgba(0,136,204,0.3);">
+                        <h3 style="font-size: 1.6em; margin-bottom: 15px;">🚀 Ready to Turn These Insights Into Action?</h3>
+                        <p style="font-size: 1.1em; margin-bottom: 10px; opacity: 0.95;">Join our exclusive Telegram community where ambitious people like you are:</p>
+                        <ul style="list-style: none; margin: 20px 0; text-align: left; max-width: 500px; margin-left: auto; margin-right: auto;">
+                            <li style="padding: 8px 0; font-size: 1.05em;">✓ Sharing growth strategies and wins</li>
+                            <li style="padding: 8px 0; font-size: 1.05em;">✓ Getting accountability and support</li>
+                            <li style="padding: 8px 0; font-size: 1.05em;">✓ Accessing exclusive resources and tips</li>
+                            <li style="padding: 8px 0; font-size: 1.05em;">✓ Building their income mindset daily</li>
+                        </ul>
+                        <a href="https://t.me/+kJMVggh6291iYmRk" target="_blank" style="display: inline-block; background: white; color: #0088cc; padding: 18px 45px; font-size: 1.2em; font-weight: 700; text-decoration: none; border-radius: 50px; margin-top: 15px; box-shadow: 0 5px 20px rgba(255,255,255,0.3); transition: all 0.3s ease;">
+                            Join the Community Now →
+                        </a>
+                        <p style="font-size: 0.9em; margin-top: 15px; opacity: 0.85;">Free to join • Connect with growth-minded people</p>
+                    </div>
+                    
+                    <button class="cta-button" id="closeResultsBtn" style="margin-top: 30px;">Close</button>
+                    
+                    <p style="margin-top: 20px; font-size: 0.95em; color: #718096;">
+                        Want to work on these areas? Follow Bloom With Letorea for resources, tips, and guidance.
+                    </p>
+                </div>
+            `;
+            
+            document.getElementById('quizContent').innerHTML = content;
+            document.getElementById('progressBar').style.width = '100%';
+            
+            // Add event listener to close button
+            setTimeout(() => {
+                document.getElementById('closeResultsBtn').addEventListener('click', closeQuiz);
+            }, 100);
+            
+            // Here you would normally send this data to your backend
+            // For now, we'll just log it
+            console.log({
+                name: userName,
+                email: userEmail,
+                score: results.totalScore,
+                category: results.category,
+                percentage: results.percentage,
+                timestamp: new Date().toISOString()
+            });
+        }
+
+        // Initialize everything when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, initializing...');
+            
+            // Attach event listeners to all CTA buttons
+            const buttons = ['startQuizBtn1', 'startQuizBtn2', 'startQuizBtn3', 'startQuizBtn4'];
+            buttons.forEach(btnId => {
+                const btn = document.getElementById(btnId);
+                if (btn) {
+                    console.log('Found button:', btnId);
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        startQuiz();
+                    });
+                } else {
+                    console.log('Button not found:', btnId);
+                }
+            });
+            
+            // Close button
+            const closeBtn = document.getElementById('closeQuizBtn');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', closeQuiz);
+            }
+            
+            // Close modal when clicking outside
+            document.getElementById('quizModal').addEventListener('click', function(e) {
+                if (e.target.id === 'quizModal') {
+                    closeQuiz();
+                }
+            });
+        });
+    </script>   
